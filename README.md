@@ -2,6 +2,11 @@
 
 Simple PHP app with Nginx and MySQL using Docker.
 
+## Setup
+```bash
+cp .env.example .env
+```
+
 ## Run
 ```bash
 docker compose up -d --build  # first time
